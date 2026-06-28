@@ -1,23 +1,36 @@
-# typing-speed-test
+# Typing Speed Test
 
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+Measure your WPM and accuracy across multiple difficulty levels with detailed per-session statistics.
 
-> WPM and accuracy typing test with character-level feedback
+## Metrics
+
+| Metric | Description |
+|---|---|
+| WPM | Words per minute (gross) |
+| Net WPM | WPM minus error penalty |
+| Accuracy | Correct keystrokes / total keystrokes |
+| Errors | Total and per-word error count |
 
 ## Features
-- ⌨️ Real-time WPM, accuracy & error tracking
-- 🟢 Green/red/blue per-character color feedback
-- ⏱️ Live timer that starts on first keystroke
-- 📝 4 different challenge texts
-- 🔄 Reset and retry anytime
 
-## Tech Stack
-`React 18` · `TypeScript` · `Vite`
+- 3 difficulty levels: Easy, Medium, Hard (word length and frequency)
+- 1 / 2 / 5 minute timed modes
+- Live WPM and accuracy counter as you type
+- Mistake highlighting
+- Result history with personal bests
+- Restart without leaving the page
 
-## Quick Start
+## Stack
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=flat&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61dafb?style=flat&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646cff?style=flat&logo=vite&logoColor=white)
+
+## Run locally
+
 ```bash
 npm install && npm run dev
 ```
 
-## License
-[MIT](LICENSE)
+---
+Made by [9bzero](https://github.com/9bzero)
